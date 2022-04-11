@@ -13,10 +13,11 @@ Mesma coisa com o outro digito, porém a contagem regressiva começa por 11 e va
 
 while True:
     CpfUser = input('Digite um CPF sem pontos e traços: ')
-    if len(CpfUser) != 11 and CpfUser.isnumeric:
+    if len(CpfUser) == 11 and CpfUser.isnumeric():
+        CPF = CpfUser[:9]
+    else:
         print('Digite um CPF com 11 digitos, sem letras e sem pontos ou traços!')
         continue
-    CPF = CpfUser[:9]
 
 #Criando as variaveis da parte do primeiro digito
 
