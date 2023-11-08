@@ -1,5 +1,4 @@
 """
-086.554.269-87
 
 Pegar os 9 primeiros digitos do CPF e fazer uma multiplicação do 10 ao 2 de cima paga baixo 1o numero x 10 ...
 Guardar os valores dessas multiplicações e somá-los
